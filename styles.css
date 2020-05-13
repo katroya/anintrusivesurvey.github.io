@@ -6,6 +6,7 @@
   padding: 0;
   height: 100vh;
   min-height: 750px;
+  padding-top: 50px;
 }
 
 /*-----GRID-----*/
@@ -16,11 +17,8 @@
 }
 /*----MAIN-GRID-----*/
 #main{
-
   margin: auto;
   display: grid;
-
-  grid-gap: 5px 0;
 }
 #title{
   text-align: center;
@@ -41,6 +39,9 @@
 #survey-form label{
   width: 9em;
   display: inline-block;
+}
+#survey-form #num-div{
+  display: block;
 }
 #radio-selection #radio1-label{
   width: auto;
@@ -75,11 +76,11 @@
 }
 #text-submit{
   display: grid;
-
   grid-row-gap: 20px;
 }
 #submit{
   width: 6em;
+  cursor: pointer;
 }
 #footer{
   position: fixed;
