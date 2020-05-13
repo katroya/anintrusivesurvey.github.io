@@ -48,11 +48,6 @@
 #radio-selection #radio2-label{
   width: auto;
 }
-#checkboxes{
-  position: relative;
-  left: 9em;
-  display: block;
-}
 #checkbox-selection #checkbox1-label{
   width: auto;
   display: block;
@@ -65,6 +60,12 @@
   width: auto;
   display: block;
 }
+#checkboxes{
+  position: relative;
+  bottom: 21px;
+  left: 9em;
+}
+
 #textbox{
   position: relative;
   top: 10px;
