@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Survey Form</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="icon" type="img/jpg" href="https://static.planetminecraft.com/files/resource_media/screenshot/1341/11Minecraft-Creeper-Wallpaper-1080p-HD-250x250up_6509836_lrg.jpg">
+  </head>
+  <body>
+    <div id="wrapper">
+      <main id="main">
+        <h1 id="title" style="padding-top: 0.5em;">AN INVASIVE SURVEY</h1>
+        <p id="description">Please fill out this survey and someone will be there shortly.</p>
+        <form id="survey-form" action="index.html" method="post">
+          <label id="name-label" for="name">Enter your name:</label>
+          <input id="name" type="text" placeholder="Name" required><br>
+          <label id="email-label" for="Email">Enter your email: </label>
+          <input id="email" type="email" text"" placeholder="Email" required><br>
+          <label id="number-label" for="number">Enter your age: </label>
+          <input id="number" type="number" min="13" max="100" placeholder="Age">
+          <select id="dropdown">
+            <option value="Male">M</option>
+            <option value="Female">F</option>
+          </select>
+          <div id="radio-selection">
+            <label>In a relationship:</label>
+            <label id="radio1-label"for="radio1"><input id="radio1" type="radio" name="yes-no" value="yes">Yes</label>
+            <label id="radio2-label"for="radio2"><input id="radio2" type="radio" name="yes-no" value="no">No</label>
+          </div>
+          <div id="checkbox-selection">
+            <label>Transportation:</label>
+            <div id="checkboxes">
+              <label id="checkbox1-label"for="checkbox1"><input id="checkbox1" type="checkbox" value="none">None</label>
+              <label id="checkbox2-label"for="checkbox2"><input id="checkbox2" type="checkbox" value="car/motorbike">Car/Motorbike</label>
+              <label id="checkbox3-label"for="checkbox3"><input id="checkbox3" type="checkbox" value="train/bus">Train/Bus</label>
+            </div>
+          </div>
+          <textarea id="textbox" name="name" rows="8" cols="80" placeholder="Additional comments"></textarea>
+          <input id="submit" type="submit" name="submit" value="Submit">
+        </form>
+      </main>
+    </div>
+    <footer id="footer">
+      <p>
+      <a target="_blank" href="https://www.freecodecamp.org/katroya">by Katroya</a>
+      <a target="_blank" href="https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-projects/build-a-survey-form">@FreeCodeCamp - Build a Survey Form</a>
+      </p>
+  </footer>
+  </body>
+</html>

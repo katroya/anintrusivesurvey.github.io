@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+  body{
+  font-family: Poppins, sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}
+
+/*-----GRID-----*/
+#wrapper{
+  width: 55%;
+  height: 100%;
+  margin: auto;
+  display: grid;
+  grid-template-rows: 95% ;
+}
+/*----MAIN-GRID-----*/
+#main{
+  width: 100%;
+  height: 100vh;
+  margin: auto;
+  display: grid;
+  grid-template-rows: 5em 3em 75%;
+  grid-gap: 5px 0;
+}
+#title{
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+#description{
+  margin: 0;
+  padding: 0;
+}
+/*-----MAIN-GRID/SUBGRID------*/
+#survey-form{
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 15px;
+}
+#survey-form label{
+  /*background: grey;*/
+  width: 9em;
+  display: inline-block;
+}
+#radio-selection #radio1-label{
+  width: auto;
+}
+#radio-selection #radio2-label{
+  width: auto;
+}
+#checkboxes{
+  position: relative;
+  left: 9em;
+  display: block;
+}
+#checkbox-selection #checkbox1-label{
+  width: auto;
+  display: block;
+}
+#checkbox-selection #checkbox2-label{
+  width: auto;
+  display: block;
+}
+#checkbox-selection #checkbox3-label{
+  width: auto;
+  display: block;
+}
+#textbox{
+  position: relative;
+  top: 10px;
+  height: 5em;
+  width: 100%
+}
+#submit{
+  position: relative;
+  top: 10px;
+  width: 6em;
+}
+#footer{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  height:3.2em;
+  background-color: #829FD9;
+}
+#footer a{
+  color: #230A59;
+  text-decoration: none;
+}
+#footer a:hover{
+  color: white;
+  text-decoration: none;
+}
+#footer a:visited{
+  color: #230A59;
+  text-decoration: none;
+}
